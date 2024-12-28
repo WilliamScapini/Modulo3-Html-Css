@@ -15,4 +15,61 @@
 header{
     background-color: black;
     color: white;
+    text-align: center;
+}
+h1{
+    padding-top: 50px;
+    font: 700 small-caps 10vw var(--font2);
+}
+header > p{
+    font: normal 1em var(--font1);
+    padding-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    color: unset;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+main  p {
+    max-width: 600px;
+    font: 3.5vw var(--font3);
+    padding: 20px;
+    line-height: 7vw;
+    margin-left: 15px;
+}
+section{
+    margin: 50px 0px;
+}
+.imagem1{
+    background: url("../imagens/background001.jpg") center center no-repeat fixed;
+    background-size: cover;
+    padding: 50px 20px;
+}
+.imagem1 > p{
+    background-color: rgba(0, 0, 0, 0.673);
+    color: white;
+    width: fit-content;
+    height: fit-content;
+}
+.imagem2{
+    background: url("../imagens/background002.jpg") center center no-repeat fixed;
+    background-size: cover;
+    padding: 50px 20px;
+}
+.imagem2 > p{
+    background-color: rgba(0, 0, 0, 0.673);
+    color: white;
+    width: fit-content;
+    height: fit-content;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.3vw;
+    padding: 10px;
+    font-family: var(--font1);
 }
